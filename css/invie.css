@@ -1,36 +1,30 @@
-/* selector universal */
-*{
-  border: 1px solid red;
-  margin: 10px;
+.titulo{
+  font-size: 70px;
 }
-/*selector de etiqueta*/
-header{
-  background: blue
-}
-/* selector de seccion */
-section{
-  background: purple
-}
-/* selector descendente */
-article h3{
-  color: green;
-}
-/* selector de clase*/
-
 .title-a{
-  background: yellow;
+  font-size: 24px;
 }
 
+.guitarras{
+  color: #1F313C;
+}
+
+.guitarras h2{
+  font-size: 35px;
+}
 .title-b{
-  background: salmon;
+  font-size: 50px;
 }
-/* selector de id */
-#header{
-  border: 3px solid black;
+
+.portada {
+  /* background-image: ruta de la imagen
+  pero la ruta se debe llamar como url,
+  cuando se tiene que devolver en carpetas
+  se colocan ../nueva ruta*/
+  background-image: url("../images/background.png");
+  color: white;
 }
-#portada{
-  border: 3px solid orange;
-}
-#guitarras{
-  border: 3px solid brown;
+
+.menu{
+  font-size: 24px;
 }
